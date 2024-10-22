@@ -52,8 +52,9 @@ This style guide defines the visual and structural elements for the Christmas-th
 - One page with a form (for uploading news/posts)
 - Support for multiple languages
 
-## Logo
-[Insert logo description or image here]
+## Footer
+- Contact informacion (address, phone number, email)
+- Social media
 
 ## Colors
 - White: #ffffff (Main background, text on dark backgrounds)

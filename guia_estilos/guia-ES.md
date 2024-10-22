@@ -50,7 +50,9 @@ Esta guía de estilos define los elementos visuales y estructurales para la web 
 - Una página con formulario (para subir noticias/posts)
 - Soporte para múltiples idiomas
 
-## Logo
+## Footer
+- Información de contacto
+- Redes sociales
 
 
 ## Colores
@@ -96,33 +98,8 @@ Uso:
 
 ## Responsive Design
 - Breakpoint principal: 768px
-- Menú: Hamburguesa en móvil, expandido en desktop
+- Menú: Hamburguesa en móvil ☰, expandido en desktop
 - Imágenes: Ajustar tamaño y resolución según dispositivo
 - Tipografía: Reducir tamaños en un 10-15% para móviles
 
 
-
----------------------------------------
-
-## https://itsashapechristmas.co.uk/
-Tiene que poder meterse varios idiomas
-
-Apretados menu: 
-Página inicial (Belén, descripción del belén) 
-Noticias (Representaciones, cantar, no se que ostias..)
-Contexto histórico
-
-
-DE MOMENTO HACER: PÁGINA PRINCIPAL	
-
-
-## https://drool.es/guia-de-estilo-web/
-
-Gama cromática
-
-Tipografía
-
-Layout
-
-
-Iconos
