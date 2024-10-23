@@ -54,18 +54,13 @@ Esta guía de estilos define los elementos visuales y estructurales para la web 
 - Información de contacto
 - Redes sociales
 
+## Gama cromática
+![gama_cromatica](./img-guia/Gama_Cromatica_belen.png)
 
-## Colores
-- Blanco: #ffffff (Fondo principal, texto sobre fondos oscuros)
-- Gris: #414141 (Texto principal, elementos secundarios)
-- Rojo: #ff6860 (Acentos, elementos navideños)
-- Verde: #ccdfcc (Elementos navideños, fondos suaves)
-- Azul: #0e6670 (Encabezados, elementos destacados)
-
-Uso:
-- Blanco, gris y azul para un toque moderno
-- Rojo y verde para representar la Navidad
-- Combinar para lograr un equilibrio visual
+- Uso:
+  - Blanco, gris y azul para un toque moderno
+  - Rojo y verde para representar la Navidad
+  - Combinar para lograr un equilibrio visual
 
 ## Distribución (Layout)
 - Encabezado: Logo a la izquierda, menú a la derecha
