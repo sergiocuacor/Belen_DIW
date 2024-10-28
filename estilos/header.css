@@ -1,0 +1,27 @@
+@import url(../estilos/commons.css);
+
+:root {/* gama cromática */
+    --color-blanco: #FFFFFF;
+    --color-negro: #414141;
+    --color-rojo: #FF6860;
+    --color-verde: #CCDFCC;
+    --color-azul-oscuro: #0E6670;
+  }
+
+header{
+    background-color: aqua;
+    margin: 0;
+    
+    }
+    ul li{
+        display: inline-block;
+        margin: 0 60px 0 60px;
+        color: var(--color-rojo);
+        font-family: 'Roboto';
+        font-weight: 700;
+    }
+
+    nav{
+        display: flex;
+        justify-content: right;
+    }
