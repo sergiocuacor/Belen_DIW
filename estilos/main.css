@@ -1,0 +1,31 @@
+main{
+    padding: 40px;
+}
+
+#mainSection {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+#mainSection img{
+    display: flex;
+
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+}
+#textoPrincipal{
+    padding: 20px;
+}
+#mainSection h2{
+    margin: 0;
+}
+

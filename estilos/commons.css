@@ -23,3 +23,12 @@
     font-weight: 400;
     font-style: italic;
 }
+
+:root {
+    /* gama cromática */
+    --color-blanco: #ffffff;
+    --color-negro: #414141;
+    --color-rojo: #ff6860;
+    --color-verde: #ccdfcc;
+    --color-azul-oscuro: #0e6670;
+  }

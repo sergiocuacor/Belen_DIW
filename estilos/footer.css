@@ -1,0 +1,6 @@
+footer{
+    background-color: var(--color-rojo);
+    padding: 20px;
+    z-index: 10;
+   
+}
