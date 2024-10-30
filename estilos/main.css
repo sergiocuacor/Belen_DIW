@@ -1,14 +1,18 @@
 main{
     padding: 40px;
+    background-color: var(--color-verde);
 }
 
 #mainSection {
-  border: 1px solid black;
+  border: 1px solid var(--color-verde-oscuro);
   width: 70%;
   margin: 0 auto;
   padding: 30px;
   display: flex;
   flex: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px var(--color-verde-oscuro);
 }
 h1 {
   text-align: center;
@@ -28,4 +32,9 @@ h1 {
 #mainSection h2{
     margin: 0;
 }
-
+h2 {
+  color: var(--color-rojo);
+}
+h1{
+  color: var(--color-negro);
+}
