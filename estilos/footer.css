@@ -1,12 +1,42 @@
 footer{
-    background-color: var(--color-rojo);
-    padding: 20px;
+    background-color: #003156;
+    padding: 10px;
     z-index: 10;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
 }
 
 footer > p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--color-blanco);
+}
+#parrafoFooter{
+    width: 30%;
+    width: 30%;
+    text-align: left;
+}
+#contactoFooter{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    width: 30%;
+    text-align: left;
+}
+
+
+.links-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; /* Espacio entre los iconos si hay varios */
+    flex: 1;
+}
+.links-redes i{
+    color:  rgb(119, 235, 255);
+}
+.fab {
+    font-size: 44px;  /* or any size you want */
 }

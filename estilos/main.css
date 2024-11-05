@@ -1,30 +1,32 @@
 main{
-    padding: 40px;
-    background-color: var(--color-verde);
+    padding: 3rem;
+    background-color: rgb(177, 243, 255);
 }
 
 #mainSection {
-  border: 1px solid var(--color-verde-oscuro);
+  border: 0.1rem solid #003156;
   width: 70%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 2rem;
   display: flex;
   flex: auto;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 10px 10px var(--color-verde-oscuro);
+  box-shadow: 10px 10px #003156;
+  
 }
 h1 {
   text-align: center;
   font-family: "Roboto";
   font-weight: 700;
+  color: #003156;
 }
 #mainSection img{
-    display: flex;
-
-    flex: 0 0 50%;
-    max-width: 50%;
     
+    max-width: 100%; 
+    width: 45rem;
+    height: 35rem;
+    height: auto;
 }
 #textoPrincipal{
     padding: 20px;
@@ -32,9 +34,29 @@ h1 {
 #mainSection h2{
     margin: 0;
 }
+
 h2 {
-  color: var(--color-rojo);
+  color: #003156;
 }
-h1{
-  color: var(--color-negro);
+
+/* TODO: HACER EL MAIN RESPONSIVE*/
+
+@media screen and (max-width:768px){
+  #mainSection{
+    padding: 0.2rem;
+    width: 20rem;
+    height: auto;
+    flex-direction: column;
+    
+  }
+  #mainSection p{
+    font-size: 1rem;
+  }
+  main{
+   
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
