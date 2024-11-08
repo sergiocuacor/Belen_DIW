@@ -1,6 +1,8 @@
+*{
+    box-sizing: border-box;
+  }
 footer{
     background-color: #003156;
-    padding: 10px;
     z-index: 10;
     border: 1px solid black;
     display: flex;
@@ -17,6 +19,7 @@ footer > p{
     width: 30%;
     width: 30%;
     text-align: left;
+    font-size: 0.9rem;
 }
 #contactoFooter{
     font-family: 'Roboto', sans-serif;
@@ -40,3 +43,14 @@ footer > p{
 .fab {
     font-size: 44px;  /* or any size you want */
 }
+@media screen and (max-width:768px){
+    footer{
+        flex-direction: column;
+    }
+    #parrafoFooter{
+        width: 80%;
+        text-align: center;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+  }

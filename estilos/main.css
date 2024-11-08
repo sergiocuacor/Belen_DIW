@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 main{
     padding: 3rem;
     background-color: rgb(177, 243, 255);
@@ -27,6 +30,8 @@ h1 {
     width: 45rem;
     height: 35rem;
     height: auto;
+    object-fit:contain;
+    
 }
 #textoPrincipal{
     padding: 20px;
@@ -55,7 +60,7 @@ h2 {
    
   }
   img{
-    width: 100%;
-    height: auto;
+  
+    border-radius: 15px;
   }
 }
