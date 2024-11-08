@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 main{
-    padding: 3rem;
+    padding: 1rem;
     background-color: rgb(177, 243, 255);
+    padding-bottom: 2rem;
 }
 
 #mainSection {
@@ -18,6 +19,7 @@ main{
   box-shadow: 10px 10px #003156;
   
 }
+
 h1 {
   text-align: center;
   font-family: "Roboto";
@@ -27,16 +29,21 @@ h1 {
 #mainSection img{
     
     max-width: 100%; 
-    width: 45rem;
-    height: 35rem;
-    height: auto;
-    object-fit:contain;
+    width: 45%;
     
+    height: auto;
+    object-fit:cover;
+    border-radius: 15px;
 }
 #textoPrincipal{
     padding: 20px;
+    flex:1;
+    
 }
 #mainSection h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* Bold */
+  font-style: normal;
     margin: 0;
 }
 
@@ -44,7 +51,116 @@ h2 {
   color: #003156;
 }
 
-/* TODO: HACER EL MAIN RESPONSIVE*/
+
+#formSection {
+  border: 0.1rem solid #003156;
+  width: 70%;
+  margin: 5rem auto; 
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px #003156;
+}
+
+#formSection h2 {
+  color: #003156;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #003156;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #003156;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-group input[type="file"] {
+  border: 2px dashed #003156;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.form-group small {
+  display: block;
+  color: #666;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.form-group.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group.checkbox input {
+  width: auto;
+  margin-right: 10px;
+}
+
+.form-group.checkbox label {
+  display: inline;
+  font-weight: 400;
+}
+
+.submit-btn {
+  background-color: #003156;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 2rem auto 0;
+}
+
+.submit-btn:hover {
+  background-color: #004d80;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 49, 86, 0.3);
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #004d80;
+  box-shadow: 0 0 5px rgba(0, 49, 86, 0.3);
+}
 
 @media screen and (max-width:768px){
   #mainSection{
@@ -56,11 +172,20 @@ h2 {
   #mainSection p{
     font-size: 1rem;
   }
-  main{
-   
+  #mainSection img{
+    width: 90%;
+    margin: auto;
   }
-  img{
-  
-    border-radius: 15px;
+  #formSection {
+    width: 90%;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .form-group input[type="file"] {
+    padding: 0.5rem;
   }
 }

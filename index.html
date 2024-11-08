@@ -14,16 +14,15 @@
     />
     <script src="./scripts/app.js"></script>
   </head>
-  
+
   <body>
     <header>
-      
       <nav>
         <div class="logo">
-          <img src="./img/LOGO_ESCOLAPIOS.png" alt="">
+          <img src="./img/LOGO_ESCOLAPIOS.png" alt="" />
         </div>
         <div class="hamburger">
-          <span></span>
+          <span></span>x
           <span></span>
           <span></span>
         </div>
@@ -76,14 +75,124 @@
         </div>
         <img src="./img/belen-sevilla-1-1-scaled.jpg" alt="" />
       </section>
+      <section id="formSection">
+        <h2>Comparte tu Belén</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+          <!-- Información personal -->
+          <div class="form-group">
+            <label for="nombre">Nombre y Apellidos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Introduce tu nombre completo"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="ejemplo@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso" required>
+              <option value="">Selecciona un curso</option>
+              <option value="1ESO">1º ESO</option>
+              <option value="2ESO">2º ESO</option>
+              <option value="3ESO">3º ESO</option>
+              <option value="4ESO">4º ESO</option>
+              <option value="1BACH">1º Bachillerato</option>
+              <option value="2BACH">2º Bachillerato</option>
+              <option value="1DAW">1º DAW</option>
+              <option value="2DAW">2º DAW</option>
+              <option value="profesor">Profesor/a</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+         
+          <div class="form-group">
+            <label for="titulo">Título de tu Belén:</label>
+            <input
+              type="text"
+              id="titulo"
+              name="titulo"
+              placeholder="Dale un nombre a tu belén"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="descripcion">Descripción:</label>
+            <textarea
+              id="descripcion"
+              name="descripcion"
+              rows="4"
+              placeholder="Cuéntanos sobre tu belén (materiales utilizados, tiempo de elaboración, significado especial...)"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="ubicacion">Ubicación del Belén:</label>
+            <input
+              type="text"
+              id="ubicacion"
+              name="ubicacion"
+              placeholder="¿Dónde está instalado? (Ej: Casa, Clase 2ºA, etc.)"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="imagenes">Sube las fotos de tu Belén:</label>
+            <input
+              type="file"
+              id="imagenes"
+              name="imagenes"
+              accept="image/*"
+              multiple
+              required
+            />
+            <small
+              >Puedes seleccionar varias imágenes. Formatos permitidos: JPG,
+              PNG</small
+            >
+          </div>
+
+          <div class="form-group checkbox">
+            <input
+              type="checkbox"
+              id="consentimiento"
+              name="consentimiento"
+              required
+            />
+            <label for="consentimiento"
+              >Acepto que mis imágenes sean publicadas en la web del
+              colegio</label
+            >
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="submit-btn">Enviar Belén</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
       <p id="parrafoFooter">
         El Colegio Calasanz Salamanca comenzó su andadura en 1956 , pertenece a
         la orden religiosa Escuelas Pías, una institución fundada por san José
-        de Calasanz en Roma en el siglo XVI para dedicarse principalmente a la
+        de Calasanz en Roma en el siglo XVI para dedicarse a la
         formación humana y cristiana de los niños/as.<br />
-       
       </p>
       <div class="links-redes">
         <a href="#" class="iconos-redes"><i class="fab fa-facebook-f"></i></a>
@@ -91,11 +200,14 @@
         <a href="#" class="iconos-redes"><i class="fab fa-instagram"></i></a>
       </div>
       <p id="contactoFooter">
-        Colegio Calasanz de Salamanca <br />Pº Canalejas, 139-159 - 37001 -
-        Salamanca <br />Teléfono: 923 26 79 61 | Fax: 923 27 04 54 <br />Email:
-        info@calasanzsalamanca.es
+        Colegio Calasanz de Salamanca
+        <br />
+        Pº Canalejas, 139-159 - 37001 
+        <br />
+        Teléfono: 923 26 79 61 | Fax: 923 27 04 54
+        <br />
+        Email: info@calasanzsalamanca.es
       </p>
     </footer>
-    
   </body>
 </html>

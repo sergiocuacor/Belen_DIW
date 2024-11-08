@@ -6,8 +6,8 @@ footer{
     z-index: 10;
     border: 1px solid black;
     display: flex;
-    justify-content: space-between; /* Distribuye el espacio entre los elementos */
-    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 footer > p{
@@ -16,17 +16,23 @@ footer > p{
     color: var(--color-blanco);
 }
 #parrafoFooter{
-    width: 30%;
-    width: 30%;
-    text-align: left;
+    width: 31%;
+    
+    font-weight: 200;
+    
+    text-align: justify;
     font-size: 0.9rem;
+    line-height: 1.6;
+    padding-left: 1rem;
 }
 #contactoFooter{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 15px;
-    width: 30%;
-    text-align: left;
+    font-size: 0.9rem;
+    width: 31%;
+    text-align: justify;
+    line-height: 1.6;
+    padding-right: 1rem;
 }
 
 
@@ -34,23 +40,34 @@ footer > p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px; /* Espacio entre los iconos si hay varios */
-    flex: 1;
+    gap: 4rem; 
+    flex: 0.8;
 }
 .links-redes i{
     color:  rgb(119, 235, 255);
 }
 .fab {
-    font-size: 44px;  /* or any size you want */
+    font-size: 44px;  
 }
 @media screen and (max-width:768px){
     footer{
         flex-direction: column;
+
+    }
+    .links-redes{
+        padding-top: 3rem;
     }
     #parrafoFooter{
         width: 80%;
         text-align: center;
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
+        display: none;
+    }
+    #contactoFooter{
+        width: 70%;
+        padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
     }
   }
